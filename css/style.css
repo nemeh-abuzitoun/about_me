@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+  }
+  p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 10px;
+  }
+  img {
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+p {
+    line-height:2;
+  }
+  
