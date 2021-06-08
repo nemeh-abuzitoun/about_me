@@ -106,3 +106,195 @@ else{
 
     alert( 'try (yes) or (y) or (no) or (n) ');
 }
+
+
+let i = 0;
+
+while(i<4){
+
+let weight = prompt('How much do you think I weigh ? ...you have four attempts?');
+
+if (weight==50) {
+    alert('correct');
+    break;
+   
+  } else if (weight> 50) {
+alert('too high');
+
+  } else {
+    alert('too low');
+      
+
+  }
+
+
+
+i++;
+}
+
+alert('i am 50 kgs');
+
+
+
+
+while(i<4){
+
+    let mobilePhone = prompt('How many mobile phones do you think I have?');
+    
+    if (mobilePhone==1) {
+        alert('correct');
+        break;
+       
+      } else if (mobilePhone> 50) {
+    alert('too high');
+    
+      } else {
+        alert('too low');
+          
+    
+      }
+    
+    
+    
+    i++;
+    }
+    
+    alert('i only need one :)');
+    
+    
+
+
+while(i<4){
+
+    let books = prompt('How many books do you think I got?');
+    
+    if (weight==20) {
+        alert('correct');
+        break;
+       
+      } else if (books> 50) {
+    alert('too high');
+    
+      } else {
+        alert('too low');
+          
+    
+      }
+    
+    
+    
+    i++;
+    }
+    
+    alert(' about 20 differnt books, stories and novels');
+    
+    
+ 
+
+while(i<4){
+
+    let pets = prompt('How many pits do you think I have?');
+    
+    if (pets==3) {
+        alert('correct');
+        break;
+       
+      } else if (pets> 50) {
+    alert('too high');
+    
+      } else {
+        alert('too low');
+          
+    
+      }
+    
+    
+    
+    i++;
+    }
+    
+    alert('i have  a  kitten, a bird and a turtle ^_^');
+    
+    
+
+
+
+while(i<4){
+
+    let car = prompt('How many cars do think I own?');
+    
+    if (car==50) {
+        alert('correct');
+        break;
+       
+      } else if (car> 50) {
+    alert('too high');
+    
+      } else {
+        alert('too low');
+          
+    
+      }
+    
+    
+    
+    i++;
+    }
+    
+    alert('i dont have one ^_*');
+    
+
+
+    
+ 
+
+while(i<4){
+
+    let courses = prompt('How many courses do you think I have attended? ');
+    
+    if (courses==3) {
+        alert('correct');
+        break;
+       
+      } else if (courses> 3) {
+    alert('too high');
+    
+      } else {
+        alert('too low');
+          
+    
+      }
+    
+    
+    
+    i++;
+    }
+    
+    alert(' the answer is three courses');
+    
+    
+
+
+    
+
+while(i<6){
+
+    let beautifulMinds = ["a movie", "a story" , "a song" , "a book"];
+    let guess = prompt('what do you think a beautifulMinds refer to ?');
+    alert(guess +    'choose one answer'   +   beautifulMinds);
+// console.log(beautifulMinds);
+    if  (guess == 'a movie') {
+        alert('correct');
+        break;
+       
+      } else  {
+    alert('try a gain from the choices');
+    
+      } 
+    
+    
+    
+    i++;
+    }
+    
+ 
