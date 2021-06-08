@@ -1,8 +1,8 @@
 
 'use strict';
 
-
-
+// let score = 0;
+// for (score = 0; score < 7; score++) {
 
 let userName = prompt('please enter your Name!');
 // console.log(userName);
@@ -116,6 +116,8 @@ let weight = prompt('How much do you think I weigh ? ...you have four attempts?'
 
 if (weight==50) {
     alert('correct');
+    // score = score++;
+
     break;
    
   } else if (weight> 50) {
@@ -199,7 +201,7 @@ while(i<4){
         alert('correct');
         break;
        
-      } else if (pets> 50) {
+      } else if (pets> 3) {
     alert('too high');
     
       } else {
@@ -223,11 +225,11 @@ while(i<4){
 
     let car = prompt('How many cars do think I own?');
     
-    if (car==50) {
+    if (car==1) {
         alert('correct');
         break;
        
-      } else if (car> 50) {
+      } else if (car> 1) {
     alert('too high');
     
       } else {
@@ -241,7 +243,7 @@ while(i<4){
     i++;
     }
     
-    alert('i dont have one ^_*');
+    alert('i do have one ^_*');
     
 
 
@@ -297,4 +299,5 @@ while(i<6){
     i++;
     }
     
- 
+// }
+// alert(score);
