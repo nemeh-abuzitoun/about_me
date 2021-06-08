@@ -5,7 +5,7 @@
 
 
 let userName = prompt('please enter your Name!');
-console.log(userName);
+// console.log(userName);
 alert(' welcome   '   +  userName +   ' to our web site');
 
 
@@ -14,7 +14,7 @@ alert(' welcome   '   +  userName +   ' to our web site');
 
 
 let home = prompt('do i live in jordan!').toLowerCase();
-console.log(home);
+// console.log(home);
 if (home ==='yes' || home === 'y') {
     alert('correct');
 } else if (home === 'no' || home === 'n')  {
@@ -32,7 +32,7 @@ if (home ==='yes' || home === 'y') {
 
 
 let animals = prompt('do i like animals!').toLowerCase();
-console.log(animals);
+// console.log(animals);
 
 if (animals === 'yes'|| animals === 'y') 
 {
@@ -74,7 +74,7 @@ else {        alert('try (yes) or (y) or (no) or (n)');
 
 
 let cooking = prompt('do  you think i know how to cook !').toLowerCase();
-console.log(cooking);
+// console.log(cooking);
 if (cooking === 'yes' || cooking === 'y' )  {
 
     alert('i know how to do dessert');
@@ -91,7 +91,7 @@ else{
 
 
 let reading = prompt('do  you think i like reading !').toLowerCase();
-console.log(reading);
+// console.log(reading);
 if (reading === 'yes' || reading === 'y' )  {
 
     alert('am in love with reading');
@@ -102,6 +102,7 @@ if (reading === 'yes' || reading === 'y' )  {
     
 }
 else{       
-    
-    alert(  'try (yes) or (y) or (no) or (n) ');
+    alert(  userName + 'try (yes) or (y) or (no) or (n) ' );
+
+    alert( 'try (yes) or (y) or (no) or (n) ');
 }
