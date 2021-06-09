@@ -1,8 +1,16 @@
 
 'use strict';
 
-// let score = 0;
-// for (score = 0; score < 7; score++) {
+let score = 0;
+
+
+
+function add() {
+  score += 1;
+}
+
+
+
 
 let userName = prompt('please enter your Name!');
 // console.log(userName);
@@ -17,6 +25,8 @@ let home = prompt('do i live in jordan!').toLowerCase();
 // console.log(home);
 if (home ==='yes' || home === 'y') {
     alert('correct');
+    add(); 
+
 } else if (home === 'no' || home === 'n')  {
 
     alert(' try a gain ' );
@@ -37,6 +47,7 @@ let animals = prompt('do i like animals!').toLowerCase();
 if (animals === 'yes'|| animals === 'y') 
 {
     alert('animals are very beautiful beings');
+    add(); 
     
 } else if (animals === 'no'|| animals==='n') {
     alert('wrong answer');
@@ -62,7 +73,7 @@ if (sport === 'no'|| sport === 'n' )
 }
 else if (sport==='yes'|| sport==='y') {
     alert('no i like yoga more than sport')
-
+    add(); 
     
 }
 else {        alert('try (yes) or (y) or (no) or (n)');
@@ -82,7 +93,7 @@ if (cooking === 'yes' || cooking === 'y' )  {
 } else if (cooking === 'no' || cooking === 'n' )
  {
     alert('most of time i use youtube for helping me at cooking');
-    
+    add(); 
 }
 else{       
     
@@ -95,7 +106,7 @@ let reading = prompt('do  you think i like reading !').toLowerCase();
 if (reading === 'yes' || reading === 'y' )  {
 
     alert('am in love with reading');
-    
+    add(); 
 } else if (reading === 'no' || reading === 'n' )
  {
     alert('i do  alot of reading in my free time ');
@@ -116,8 +127,7 @@ let weight = prompt('How much do you think I weigh ? ...you have four attempts?'
 
 if (weight==50) {
     alert('correct');
-    // score = score++;
-
+    add(); 
     break;
    
   } else if (weight> 50) {
@@ -145,6 +155,7 @@ while(i<4){
     
     if (mobilePhone==1) {
         alert('correct');
+        add(); 
         break;
        
       } else if (mobilePhone> 50) {
@@ -172,6 +183,7 @@ while(i<4){
     
     if (weight==20) {
         alert('correct');
+        add(); 
         break;
        
       } else if (books> 50) {
@@ -199,6 +211,7 @@ while(i<4){
     
     if (pets==3) {
         alert('correct');
+        add(); 
         break;
        
       } else if (pets> 3) {
@@ -227,6 +240,7 @@ while(i<4){
     
     if (car==1) {
         alert('correct');
+        add(); 
         break;
        
       } else if (car> 1) {
@@ -256,6 +270,7 @@ while(i<4){
     
     if (courses==3) {
         alert('correct');
+        add(); 
         break;
        
       } else if (courses> 3) {
@@ -287,6 +302,7 @@ while(i<6){
 // console.log(beautifulMinds);
     if  (guess == 'a movie') {
         alert('correct');
+        add(); 
         break;
        
       } else  {
@@ -300,4 +316,4 @@ while(i<6){
     }
     
 // }
-// alert(score);
+alert(score);

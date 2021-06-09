@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(84, 25, 114);
   }
   p {
     margin-top: 100px;
@@ -8,7 +8,7 @@ body {
     margin-left: 10px;
   }
   img {
-    border-radius: 8px;
+    border-radius: 9px;
     padding: 5px;
     width: 150px;
   }
@@ -16,4 +16,35 @@ body {
 p {
     line-height:2;
   }
+  ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+  }
+  ol {
+    background: #181616;
+    padding: 20px;
+  }
+  #borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
+  }
+  body, h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    text-decoration: overline;
+  }
   
+  h2 {
+    text-decoration: unset;
+  }
+  
+  h3 {
+    text-decoration: underline;
+    
+ol.c {
+  list-style-type: upper-roman;
+}
+  }
