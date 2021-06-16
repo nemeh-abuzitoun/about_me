@@ -3,14 +3,9 @@
 
 let score = 0;
 
-
-
 function add() {
   score += 1;
 }
-
-
-
 
 let userName = prompt('please enter your Name!');
 // console.log(userName);
@@ -36,8 +31,6 @@ if (home ==='yes' || home === 'y') {
 
 }
 
-
-
 let animals = prompt('do i like animals!').toLowerCase();
 // console.log(animals);
 
@@ -58,8 +51,6 @@ if (animals === 'yes'|| animals === 'y')
 }
  
 
-
-
 let sport = prompt('do i know how to play football!').toLowerCase();
 // console.log(sport);
 
@@ -75,10 +66,6 @@ else if (sport==='yes'|| sport==='y') {
 }
 else {        alert('try (yes) or (y) or (no) or (n)');
 }
-
-
-
-
 
 
 let cooking = prompt('do  you think i know how to cook !').toLowerCase();
@@ -127,7 +114,7 @@ function myBooks() {
     }
     else if (myBooks < 32) {
       alert("your answer(" + myBooks + ') its less than correct answer');
-      count++
+      count++;
     }
     else {
       alert("your answer(" + myBooks + ') its more than correct answer');
@@ -173,18 +160,6 @@ function beautiful(mind) {
 
   return mind;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 askN3meh('do i live in jordan!','correct','try again');
