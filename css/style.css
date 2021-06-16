@@ -47,4 +47,24 @@ p {
 ol.c {
   list-style-type: upper-roman;
 }
-  }
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+<ul>
+<li><a href="default.asp">Home</a></li>
+<li><a href="news.asp">product</a></li>
+<li><a href="contact.asp">About us</a></li>
+<li><a href="about.asp">contact</a></li>
+</ul>
