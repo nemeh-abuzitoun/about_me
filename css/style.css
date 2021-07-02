@@ -21,10 +21,10 @@ section ol li {
   
   margin: 40px;
   padding: 20px;
-list-style-type: upper-alpha;
 color: rgb(134, 33, 92);
 margin-left: auto;
-}section nav {
+}
+section nav {
   
   color: rgb(204, 34, 71);
   font-size: x-large;
